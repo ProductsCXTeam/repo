@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+ <fullName>alm_pm2__Jenkins_Build__c</fullName>
+ <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+ <deploymentStatus>Deployed</deploymentStatus>
+ <description/>
+ <fields>
+  <fullName>alm_pm2__Status_Details__c</fullName>
+  <deprecated>false</deprecated>
+  <externalId>false</externalId>
+  <label>Status Details</label>
+  <length>255</length>
+  <required>false</required>
+  <trackTrending>false</trackTrending>
+  <type>Text</type>
+  <unique>false</unique>
+ </fields>
+ <label>Jenkins Build</label>
+ <nameField>
+  <displayFormat>J-{00000}</displayFormat>
+  <label>Jenkins Build Key</label>
+  <type>AutoNumber</type>
+ </nameField>
+ <pluralLabel>Jenkins Builds</pluralLabel>
+ <sharingModel>ControlledByParent</sharingModel>
+ <visibility>Public</visibility>
+</CustomObject>

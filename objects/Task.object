@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+ <fullName>Task</fullName>
+ <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+ <description/>
+ <fields>
+  <fullName>Status</fullName>
+  <type>Picklist</type>
+ </fields>
+ <sharingModel>Private</sharingModel>
+</CustomObject>
