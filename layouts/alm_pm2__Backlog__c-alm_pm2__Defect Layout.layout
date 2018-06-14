@@ -154,6 +154,10 @@
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>
+        <fields>alm_pm2__Status__c</fields>
+        <fields>alm_pm2__VC_Repository__c</fields>
+        <fields>CREATEDBY_USER</fields>
+        <fields>alm_pm2__External_Commit__c</fields>
         <relatedList>alm_pm2__VC_Commit__c.alm_pm2__Backlog_Item__c</relatedList>
     </relatedLists>
     <relatedLists>
